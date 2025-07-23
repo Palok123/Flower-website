@@ -6,9 +6,13 @@
   font-variation-settings:
     "wdth" 100;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 /* header style */
 header{
-    max-width: 87%;
+    width: 87%;
     margin: 0 auto;
 }
 nav ul li{
@@ -68,6 +72,7 @@ ul{
 .banner-header{
     font-size: 4rem;
     font-weight: bold;
+    margin-bottom: 1.5rem;
 }
 .banner-header-color-2{
     color: #E95A08;
@@ -89,3 +94,56 @@ ul{
 }
 }
 /* plants section style */
+.plant-section{
+    
+    width: 87%;
+    margin: 5rem auto;
+    text-align: center;
+}
+.plan-section-header{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    
+}
+.plan-section-header-style-2{
+    color: #E95A08;
+}
+.cart-flower-name{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: .7rem;
+   
+}
+.card-img img{
+    width: 100%;
+}
+.cart-flower-price{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: .7rem;
+}
+.cart-button{
+    width: 100%;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 1.5rem 3rem;
+}
+.flower-card-container{
+    display: grid;
+    margin-top: 1.5rem;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+@media screen and (max-width:576px){
+    .card-img {
+    width: 150px;
+}
+
+    .flower-card-container{
+    
+    grid-template-columns: repeat(2,1fr);
+    gap: .5rem;
+}
+}
