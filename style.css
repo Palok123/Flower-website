@@ -92,6 +92,10 @@ ul{
     font-size: 1.2rem;
     
 }
+header{
+    width: 95%;
+    margin: 0 auto;
+}
 }
 /* plants section style */
 .plant-section{
@@ -137,13 +141,26 @@ ul{
     gap: 1rem;
 }
 @media screen and (max-width:576px){
-    .card-img {
-    width: 150px;
-}
-
+  
     .flower-card-container{
     
     grid-template-columns: repeat(2,1fr);
     gap: .5rem;
 }
+.cart-flower-price{
+    font-size: 1rem;
+    margin-bottom: .6rem;
+}
+.cart-flower-name{
+    font-size: 1rem;
+    margin-bottom: .6rem;
+   
+}
+.plant-section{
+    
+    width: 95%;
+    margin: 4rem auto;
+    /* text-align: center; */
+}
+
 }
