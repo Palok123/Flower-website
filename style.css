@@ -328,3 +328,49 @@ header{
 
 }
 /* join section style */
+.join-section-header{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+.join-section input{
+    font-size: 1rem;
+    border: none;
+    width: 500px;
+    background-color: white;
+    color: #7c7c7e;
+    padding: 8px 16px;
+
+}
+.join-section-btn{
+    font-size: 1rem;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+    padding: 8px 20px;
+}
+.join-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    height: 400px;
+    background-image: url('assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+@media screen  and (max-width:876px){
+    .join-section{
+    height: 250px;  
+}
+.join-section input{ 
+    width: 200px;
+}
+.join-section-header{
+    font-size: 1.6rem;
+}
+
+}       
